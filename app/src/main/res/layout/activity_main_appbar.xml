@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/app_bar"
+
+        />
+    <android.support.v4.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawerlayout">
+        <FrameLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
+        <fragment
+            android:layout_width="700dp"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_navigation_drawer"
+            android:name="com.example.shika.matarialdesign.fragments.NavigationDrawerFragment"
+            android:layout_gravity="start"
+            android:id="@+id/fragmentnavigationdrawer"
+            >
+
+        </fragment>
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

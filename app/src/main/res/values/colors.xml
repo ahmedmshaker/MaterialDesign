@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primarycolor">#29053f</color>
+    <color name="primarycolordark">#E1BEE7</color>
+    <color name="navigationbarcolor">#29053f</color>
+    <color name="status">#fee000</color>
+</resources>

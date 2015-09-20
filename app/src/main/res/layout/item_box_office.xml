@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="80dp"
+        android:id="@+id/urlThumbnail"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="42dp"
+        android:layout_alignBottom="@+id/ratingBar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/movieTitle"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="56dp"
+        android:gravity="right"
+        android:layout_alignParentTop="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/movieDate"
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:layout_marginLeft="56dp"
+        android:gravity="right"
+        android:layout_below="@+id/movieTitle"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_below="@+id/movieDate"
+        android:layout_alignRight="@+id/movieDate"
+        android:layout_alignEnd="@+id/movieDate"
+        android:max="5"
+        android:numStars="0"
+        style="@android:style/Widget.Holo.RatingBar.Small"
+        android:progressBackgroundTint="@android:color/holo_blue_bright"
+        />
+
+</RelativeLayout>

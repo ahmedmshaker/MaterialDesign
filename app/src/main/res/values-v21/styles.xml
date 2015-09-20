@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+
+        <item name="android:colorPrimary">@color/primarycolor</item>
+        <item name="android:colorPrimaryDark">@color/primarycolordark</item>
+        <item name="android:navigationBarColor">@color/navigationbarcolor</item>
+        <item name="android:textColorPrimary">@color/primarycolordark</item>
+        <item name="android:textColorSecondary">#fff</item>
+        <item name="android:windowTranslucentStatus">@color/status</item>
+
+    </style>
+
+</resources>
